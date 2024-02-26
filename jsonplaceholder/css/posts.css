@@ -1,0 +1,48 @@
+* {
+    font-family: tahoma;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    max-width: 1080px;
+    margin: auto;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header .menu ul  {
+    list-style: none;
+    padding: 0;
+}
+header .menu ul li {
+    margin-right: 10px;
+    display: inline-block;
+}
+.header-section {
+    background: #f1f1f1;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+footer {
+    background: #f1f1f1;
+    padding: 30px;
+    text-align: center;
+    letter-spacing: 10px;
+    text-transform: uppercase;
+}
+.posts-area {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+#posts-conatiner {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+#posts-conatiner div {
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    padding: 30px 20px;
+}
