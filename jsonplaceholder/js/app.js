@@ -1,9 +1,9 @@
 function loadUserData() {
     fetch('https://jsonplaceholder.typicode.com/users')
     .then(res => res.json())
-    .then(json => displaUserData(json))
+    .then(data => displaUserData(data))
 }
 
-function displaUserData(json) {
-    console.log(json);
+function displaUserData(data) {
+    console.log(data);
 }
